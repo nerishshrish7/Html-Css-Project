@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 650px;
+    width: 100%;
+    background-image: url(./img/home.jpg);
+    background-size:1366px 650px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.options{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.options a{
+    text-decoration: none;
+    color: white; 
+}
+.about{
+    height: 50px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.menu{
+    height: 50px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.facilities{
+    height: 50px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 550px;
+}
+.head{
+    font-size: 25px;
+    margin-right: 100px;
+    position: absolute;
+}
+.head h1{
+    font-family: 'Dancing Script',sans-serif;
+}
+.news{
+    height: 50px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery{
+    height: 50px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.contact{
+    height: 50px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.container h2{
+    margin-left: 560px;
+    margin-top: 200px;
+    color: #E49826;
+    font-size: 15px;
+}
+.container h3{
+    margin-left: 510px;
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Inria serif',sans-serif;
+    text-shadow: 1px 1px gray;
+}
+.container h4{
+    margin-top: 10px;
+    margin-left: 620px;
+    color: white;
+    font-size: 16px;
+    font-weight:normal;
+}
+.n1{
+    margin-top: 3px;
+    margin-left: 350px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+}
+.n2{
+    margin-top: 3px;
+    margin-left: 440px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+}
+.n3{
+    margin-top: 3px;
+    margin-left: 540px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+}
+.n4{
+    margin-top: 3px;
+    margin-left: 580px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+}
+.box{
+    height: 40px;
+    width: 500px;
+    margin-left: 410px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.reserve{
+    height: 35px;
+    width: 200px;
+    border-style: ridge;
+    border-color: #E49826;
+    filter: contrast(1000%);
+    text-align: center;
+}
+.reserve a{
+    text-decoration: none;
+    color: white;
+}
+.reserve p{
+    margin-top: 10px;
+}
+.online{
+    height: 35px;
+    width: 200px;
+    border-style: ridge;
+    border-color: #E49826;
+    filter: contrast(1000%);
+    margin-left: 30px;
+    text-align: center;
+}
+.online a{
+    text-decoration: none;
+    color: white;
+}
+.online p{
+    margin-top: 10px;
+}
+.about a:hover{
+    height: 40px;
+    width: 100px;
+    background-color: #E49826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 2px rgb(34, 33, 33);
+}
+.menu a:hover{
+    height: 40px;
+    width: 80px;
+    background-color: #E49826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 2px rgb(34, 33, 33);
+}
+.facilities a:hover{
+    height: 40px;
+    width: 100px;
+    background-color: #E49826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 2px  rgb(34, 33, 33);
+}
+.news a:hover{
+    height: 40px;
+    width: 170px;
+    background-color: #E49826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 2px  rgb(34, 33, 33);
+}
+.gallery a:hover{
+    height: 40px;
+    width: 100px;
+    background-color: #E49826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 2px  rgb(34, 33, 33);
+}
+.contact a:hover{
+    height: 40px;
+    width: 100px;
+    background-color: #E49826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 2px  rgb(34, 33, 33);
+}
